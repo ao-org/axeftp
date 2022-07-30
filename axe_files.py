@@ -140,7 +140,7 @@ if __name__ == "__main__":
         print(cmd)
         os.system(cmd)
         c+=1
-        if c >= int(options.dcount): break
+        if c >= int(options.dcount-1): break
 
 
     print('All done...')
