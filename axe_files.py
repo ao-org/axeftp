@@ -30,8 +30,6 @@ from os import path
 from configparser import ConfigParser
 from ftplib import FTP
 
-
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-c", "--config", dest="config_file", help="uses CONFIG_FILE as the server configuration", metavar="CONFIG_FILE")
@@ -85,6 +83,7 @@ if __name__ == "__main__":
  
     print(f'Downloading the last {options.dcount} files')
     flist.sort(key=lambda tup: tup[1],reverse=True)  # sorts in place
+
     c = 0 
     for remote_file,d in flist:
         local_file =  f"{options.local_folder}{d}.zip"
@@ -93,6 +92,7 @@ if __name__ == "__main__":
         c+=1
         if c >= int(options.dcount): break
 
+    ftp.quit()
 
     # inflate and rename
     c = 0
@@ -125,7 +125,24 @@ if __name__ == "__main__":
         c+=1
         if c >= int(options.dcount): break
 
+    # Analysis
+    for i in range(len(flist)-1):
+        _ , d1 = flist[i]
+        _ , d2 = flist[i+1]
+        temp_path1 = f'./{d1}/'
+        temp_path2 = f'./{d2}/'
+
+        fbase1 = f'{temp_path1}{d1.db}'
+        fbase2 = f'{temp_path2}{d2.db}'
+        fout   = f'{fbase1.json}'
+        cmd   = f'Vigilante.exe {fbase2} {fbase1} {fout}'
+        print(cmd)
+        os.system(cmd)
+
+    sys.exit(f'Missing remote folder for {options.remote_ftp_host}')
+
+
+
 
     print('All done...')
-    ftp.quit()
 
