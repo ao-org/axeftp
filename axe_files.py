@@ -115,7 +115,12 @@ if __name__ == "__main__":
         for file in files:
             print(f'Renaming {file} ---> {d}_{file}')
             old_file = os.path.join(temp_path, file)
-            new_file = os.path.join(temp_path, f'{d}{file}')
+            assert  file.endswith('.db') or file.endswith('-wal') 
+            if file.endswith('.db') :
+               new_file = os.path.join(temp_path, f'{d}.db')
+            else:
+               new_file = os.path.join(temp_path, f'{d}.db-wal')
+    
             os.rename(old_file,new_file)
         c+=1
         if c >= int(options.dcount): break
