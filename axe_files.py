@@ -23,6 +23,7 @@ import sys
 import time
 import os
 import argparse
+
 from configparser import ConfigParser
 from ftplib import FTP
 
@@ -73,28 +74,20 @@ if __name__ == "__main__":
     print('Getting last modified time for each backup.')
     for name in names:
         if name.endswith('.zip') :
-            time = ftp.voidcmd(f'MDTM {name}')
-            if (latest_time is None) or (time > latest_time):
-                latest_name = name
-                latest_time = time
+            ftime = ftp.voidcmd(f'MDTM {name}').split()[1]
             print(name)
-            print(f'File: {name} last modified: {time}')
-            
-            flist.append((name,time))
+            print(f'File: {name} last modified: {ftime}')
+            flist.append((name,ftime))
 
     print(f'Downloading the last {options.dcount} files')
     flist.sort(key=lambda tup: tup[1],reverse=True)  # sorts in place
     c = 0 
     for remote_file,d in flist:
-        print(f'Downloading {remote_file}...')
-        #try:
-        local_file = f"{options.local_folder}{remote_file}"
-        print(local_file)
+        local_file =  f"{options.local_folder}{d}.zip"
+        print(f'Downloading {remote_file}...---->{local_file}')
         ftp.retrbinary(f'RETR {remote_file}',open(local_file, 'wb').write)
-        #except:
-        #    print("Error")
         c+=1
-        if c > options.dcount: break
+        if c > int(options.dcount): break
         
     print('All done...')
     ftp.quit()
