@@ -134,7 +134,7 @@ if __name__ == "__main__":
 
         fbase1 = f'{temp_path1}{d1}.db'
         fbase2 = f'{temp_path2}{d2}.db'
-        fout   = f'{fbase1}.json}'
+        fout   = f'{fbase1}.json'
         cmd   = f'Vigilante.exe {fbase2} {fbase1} {fout}'
         print(cmd)
         os.system(cmd)
