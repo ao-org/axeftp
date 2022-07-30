@@ -126,6 +126,7 @@ if __name__ == "__main__":
         if c >= int(options.dcount): break
 
     # Analysis
+    c = 0
     for i in range(len(flist)-1):
         _ , d1 = flist[i]
         _ , d2 = flist[i+1]
@@ -138,10 +139,8 @@ if __name__ == "__main__":
         cmd   = f'Vigilante.exe {fbase2} {fbase1} {fout}'
         print(cmd)
         os.system(cmd)
-
-    sys.exit(f'Missing remote folder for {options.remote_ftp_host}')
-
-
+        c+=1
+        if c >= int(options.dcount): break
 
 
     print('All done...')
