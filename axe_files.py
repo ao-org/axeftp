@@ -24,7 +24,9 @@ import time
 import os
 import argparse
 import zipfile
+import shutil
 
+from os import path
 from configparser import ConfigParser
 from ftplib import FTP
 
@@ -80,6 +82,7 @@ if __name__ == "__main__":
             print(f'File: {name} last modified: {ftime}')
             flist.append((name,ftime))
 
+ 
     print(f'Downloading the last {options.dcount} files')
     flist.sort(key=lambda tup: tup[1],reverse=True)  # sorts in place
     c = 0 
@@ -88,16 +91,34 @@ if __name__ == "__main__":
         print(f'Downloading {remote_file}...---->{local_file}')
         ftp.retrbinary(f'RETR {remote_file}',open(local_file, 'wb').write)
         c+=1
-        if c > int(options.dcount): break
+        if c >= int(options.dcount): break
 
+
+    # inflate and rename
     c = 0
     for remote_file,d in flist:
+        temp_path = f'./{d}/'
+        if path.exists(temp_path):
+            os.rmdir(temp_path)
+        else:
+            os.mkdir(temp_path)
         local_file =  f"{options.local_folder}{d}.zip"
-        print(f'Inflating {local_file}')
-        with zipfile.ZipFile(local_file,"r") as zip_ref:
-            zip_ref.extractall()
+
+        shutil.move(local_file, f'{temp_path}{d}.zip')
+        print(f'Inflating {temp_path}{local_file}')
+        with zipfile.ZipFile(f'{temp_path}{d}.zip',"r") as zip_ref:
+            zip_ref.extractall(temp_path)
+        
+        os.remove(f'{temp_path}{local_file}')
+        files = os.listdir(temp_path)
+        
+        for file in files:
+            print(f'Renaming {file} ---> {d}_{file}')
+            old_file = os.path.join(temp_path, file)
+            new_file = os.path.join(temp_path, f'{d}{file}')
+            os.rename(old_file,new_file)
         c+=1
-        if c > int(options.dcount): break
+        if c >= int(options.dcount): break
 
 
     print('All done...')
