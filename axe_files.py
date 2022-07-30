@@ -23,6 +23,7 @@ import sys
 import time
 import os
 import argparse
+import zipfile
 
 from configparser import ConfigParser
 from ftplib import FTP
@@ -88,7 +89,17 @@ if __name__ == "__main__":
         ftp.retrbinary(f'RETR {remote_file}',open(local_file, 'wb').write)
         c+=1
         if c > int(options.dcount): break
-        
+
+    c = 0
+    for remote_file,d in flist:
+        local_file =  f"{options.local_folder}{d}.zip"
+        print(f'Inflating {local_file}')
+        with zipfile.ZipFile(local_file,"r") as zip_ref:
+            zip_ref.extractall()
+        c+=1
+        if c > int(options.dcount): break
+
+
     print('All done...')
     ftp.quit()
 
