@@ -40,6 +40,7 @@ if __name__ == "__main__":
     parser.add_argument("-f", "--remotefolder", dest="remote_folder", help="Folder", metavar="FTP_FOLDER")
     parser.add_argument("-n", "--dcount", dest="dcount", default=1, help="dcount", metavar="DOWNLOAD_COUNT")
     parser.add_argument("-t", "--local_folder", dest="local_folder", default='./', help="Local folder", metavar="LOCAL_FOLDER")
+    parser.add_argument("-o", "--report_folder", dest="report_folder", default='./report', help="Report folder", metavar="REPORT_FOLDER")
 
 
     options = parser.parse_args()
@@ -125,6 +126,8 @@ if __name__ == "__main__":
         c+=1
         if c >= int(options.dcount): break
 
+    if not path.exists(options.report_folder):
+        os.mkdir(options.report_folder)
     # Analysis
     c = 0
     for i in range(len(flist)-1):
@@ -135,7 +138,7 @@ if __name__ == "__main__":
 
         fbase1 = f'{temp_path1}{d1}.db'
         fbase2 = f'{temp_path2}{d2}.db'
-        fout   = f'{fbase1}.json'
+        fout   = f'{options.report_folder}/{d1}.json'
         cmd   = f'Vigilante.exe {fbase2} {fbase1} {fout}'
         print(cmd)
         os.system(cmd)
