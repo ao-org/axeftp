@@ -41,7 +41,7 @@ if __name__ == "__main__":
     parser.add_argument("-n", "--dcount", dest="dcount", default=1, help="dcount", metavar="DOWNLOAD_COUNT")
     parser.add_argument("-t", "--local_folder", dest="local_folder", default='./', help="Local folder", metavar="LOCAL_FOLDER")
     parser.add_argument("-o", "--report_folder", dest="report_folder", default='./report', help="Report folder", metavar="REPORT_FOLDER")
-    parser.add_argument("-a", "--analysis_tool", dest="analysis_tool", default='./Vigilante.exe', help="Analysis tool", metavar="ANALYSIS_TOOL")
+    parser.add_argument("-a", "--analysis_tool", dest="analysis_tool", default='Vigilante.exe', help="Analysis tool", metavar="ANALYSIS_TOOL")
 
 
 
