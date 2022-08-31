@@ -41,6 +41,8 @@ if __name__ == "__main__":
     parser.add_argument("-n", "--dcount", dest="dcount", default=1, help="dcount", metavar="DOWNLOAD_COUNT")
     parser.add_argument("-t", "--local_folder", dest="local_folder", default='./', help="Local folder", metavar="LOCAL_FOLDER")
     parser.add_argument("-o", "--report_folder", dest="report_folder", default='./report', help="Report folder", metavar="REPORT_FOLDER")
+    parser.add_argument("-a", "--analysis_tool", dest="analysis_tool", default='./Vigilante.exe', help="Analysis tool", metavar="ANALYSIS_TOOL")
+
 
 
     options = parser.parse_args()
@@ -140,7 +142,7 @@ if __name__ == "__main__":
         fbase1 = f'{temp_path1}{d1}.db'
         fbase2 = f'{temp_path2}{d2}.db'
         fout   = f'{options.report_folder}/{d1}.json'
-        cmd   = f'Vigilante.exe {fbase2} {fbase1} {fout}'
+        cmd   = f'{options.analysis_tool} {fbase2} {fbase1} {fout}'
         print(cmd)
         os.system(cmd)
         c+=1
