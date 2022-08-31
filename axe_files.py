@@ -100,9 +100,8 @@ if __name__ == "__main__":
     for remote_file,d in flist:
         temp_path = f'./{d}/'
         if path.exists(temp_path):
-            os.rmdir(temp_path)
-        else:
-            os.mkdir(temp_path)
+            shutil.rmtree(temp_path, ignore_errors=True)
+        os.mkdir(temp_path)
         local_file =  f"{options.local_folder}{d}.zip"
 
         shutil.move(local_file, f'{temp_path}{d}.zip')
@@ -110,7 +109,9 @@ if __name__ == "__main__":
         with zipfile.ZipFile(f'{temp_path}{d}.zip',"r") as zip_ref:
             zip_ref.extractall(temp_path)
         
-        os.remove(f'{temp_path}{local_file}')
+        # after inflating delete the zip
+        os.remove(f'{temp_path}{d}.zip')
+
         files = os.listdir(temp_path)
         
         for file in files:
