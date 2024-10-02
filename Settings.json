@@ -140,7 +140,7 @@
       "MaxLvlIncrease": 10,
       "WarningLvlIncrease": 4,
       "MaxExp": 500000,
-      "WarningExpIncrease": 500000,
+      "WarningExpIncrease": 10000,
       "WarningGoldIncrease": 10000000,
       "MaxGoldIncrease": 30000000
     },
@@ -148,7 +148,7 @@
       "MaxLvlIncrease": 10,
       "WarningLvlIncrease": 4,
       "MaxExp": 500000,
-      "WarningExpIncrease": 500000,
+      "WarningExpIncrease": 10000,
       "WarningGoldIncrease": 10000000,
       "MaxGoldIncrease": 30000000
     },
@@ -164,7 +164,7 @@
       "MaxLvlIncrease": 6,
       "WarningLvlIncrease": 3,
       "MaxExp": 720000,
-      "WarningExpIncrease": 10000,
+      "WarningExpIncrease": 94000,
       "WarningGoldIncrease": 10000000,
       "MaxGoldIncrease": 30000000
     },
