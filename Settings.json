@@ -5,376 +5,376 @@
       "WarningLvlIncrease": 15,
       "MaxExp": 160000,
       "WarningExpIncrease": 51000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "2": {
       "MaxLvlIncrease": 20,
       "WarningLvlIncrease": 14,
       "MaxExp": 160000,
       "WarningExpIncrease": 51000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "3": {
       "MaxLvlIncrease": 20,
       "WarningLvlIncrease": 13,
       "MaxExp": 160000,
       "WarningExpIncrease": 51000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "4": {
       "MaxLvlIncrease": 20,
       "WarningLvlIncrease": 12,
       "MaxExp": 160000,
       "WarningExpIncrease": 51000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "5": {
       "MaxLvlIncrease": 20,
       "WarningLvlIncrease": 11,
       "MaxExp": 160000,
       "WarningExpIncrease": 60000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "6": {
       "MaxLvlIncrease": 20,
       "WarningLvlIncrease": 10,
       "MaxExp": 160000,
       "WarningExpIncrease": 60000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "7": {
       "MaxLvlIncrease": 20,
       "WarningLvlIncrease": 9,
       "MaxExp": 160000,
       "WarningExpIncrease": 60000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "8": {
       "MaxLvlIncrease": 20,
       "WarningLvlIncrease": 8,
       "MaxExp": 160000,
       "WarningExpIncrease": 60000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "9": {
       "MaxLvlIncrease": 20,
       "WarningLvlIncrease": 7,
       "MaxExp": 160000,
       "WarningExpIncrease": 60000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "10": {
       "MaxLvlIncrease": 20,
       "WarningLvlIncrease": 6,
       "MaxExp": 160000,
       "WarningExpIncrease": 66300,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "11": {
       "MaxLvlIncrease": 20,
       "WarningLvlIncrease": 5,
       "MaxExp": 160000,
       "WarningExpIncrease": 66300,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "12": {
       "MaxLvlIncrease": 10,
       "WarningLvlIncrease": 5,
       "MaxExp": 160000,
       "WarningExpIncrease": 94000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "13": {
       "MaxLvlIncrease": 12,
       "WarningLvlIncrease": 5,
       "MaxExp": 200000,
       "WarningExpIncrease": 94000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "14": {
       "MaxLvlIncrease": 12,
       "WarningLvlIncrease": 5,
       "MaxExp": 200000,
       "WarningExpIncrease": 94000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "15": {
       "MaxLvlIncrease": 11,
       "WarningLvlIncrease": 5,
       "MaxExp": 200000,
       "WarningExpIncrease": 113000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "16": {
       "MaxLvlIncrease": 10,
       "WarningLvlIncrease": 4,
       "MaxExp": 200000,
       "WarningExpIncrease": 146000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "17": {
       "MaxLvlIncrease": 10,
       "WarningLvlIncrease": 4,
       "MaxExp": 250000,
       "WarningExpIncrease": 200000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "18": {
       "MaxLvlIncrease": 10,
       "WarningLvlIncrease": 4,
       "MaxExp": 250000,
       "WarningExpIncrease": 200000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "19": {
       "MaxLvlIncrease": 10,
       "WarningLvlIncrease": 4,
       "MaxExp": 250000,
       "WarningExpIncrease": 200000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "20": {
       "MaxLvlIncrease": 8,
       "WarningLvlIncrease": 3,
       "MaxExp": 720000,
       "WarningExpIncrease": 360000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "21": {
       "MaxLvlIncrease": 6,
       "WarningLvlIncrease": 3,
       "MaxExp": 720000,
       "WarningExpIncrease": 360000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "22": {
       "MaxLvlIncrease": 6,
       "WarningLvlIncrease": 3,
       "MaxExp": 720000,
       "WarningExpIncrease": 360000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "23": {
       "MaxLvlIncrease": 5,
       "WarningLvlIncrease": 3,
       "MaxExp": 720000,
       "WarningExpIncrease": 360000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "24": {
       "MaxLvlIncrease": 5,
       "WarningLvlIncrease":3,
       "MaxExp": 720000,
       "WarningExpIncrease": 360000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "25": {
       "MaxLvlIncrease": 4,
       "WarningLvlIncrease": 2,
       "MaxExp": 1080000,
       "WarningExpIncrease": 540000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "26": {
       "MaxLvlIncrease": 4,
       "WarningLvlIncrease": 2,
       "MaxExp": 1080000,
       "WarningExpIncrease": 540000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "27": {
       "MaxLvlIncrease": 4,
       "WarningLvlIncrease": 2,
       "MaxExp": 1080000,
       "WarningExpIncrease": 540000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "28": {
       "MaxLvlIncrease": 4,
       "WarningLvlIncrease": 2,
       "MaxExp": 1080000,
       "WarningExpIncrease": 540000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "29": {
       "MaxLvlIncrease": 4,
       "WarningLvlIncrease": 1,
       "MaxExp": 1080000,
       "WarningExpIncrease": 540000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "30": {
       "MaxLvlIncrease": 2,
       "WarningLvlIncrease": 1,
       "MaxExp": 1080000,
       "WarningExpIncrease": 540000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "31": {
       "MaxLvlIncrease": 2,
       "WarningLvlIncrease": 1,
       "MaxExp": 1080000,
       "WarningExpIncrease": 540000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "32": {
       "MaxLvlIncrease": 2,
       "WarningLvlIncrease": 1,
       "MaxExp": 1080000,
       "WarningExpIncrease": 540000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "33": {
       "MaxLvlIncrease": 2,
       "WarningLvlIncrease": 1,
       "MaxExp": 1728000,
       "WarningExpIncrease": 864000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "34": {
       "MaxLvlIncrease": 2,
       "WarningLvlIncrease": 1,
       "MaxExp": 1728000,
       "WarningExpIncrease": 864000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "35": {
       "MaxLvlIncrease": 2,
       "WarningLvlIncrease": 1,
       "MaxExp": 1728000,
       "WarningExpIncrease": 864000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "36": {
       "MaxLvlIncrease": 2,
       "WarningLvlIncrease": 1,
       "MaxExp": 1728000,
       "WarningExpIncrease": 864000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "37": {
       "MaxLvlIncrease": 2,
       "WarningLvlIncrease": 1,
       "MaxExp": 1728000,
       "WarningExpIncrease": 864000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "38": {
       "MaxLvlIncrease": 2,
       "WarningLvlIncrease": 1,
       "MaxExp": 1728000,
       "WarningExpIncrease": 864000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "39": {
       "MaxLvlIncrease": 2,
       "WarningLvlIncrease": 1,
       "MaxExp": 1728000,
       "WarningExpIncrease": 864000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "40": {
       "MaxLvlIncrease": 2,
       "WarningLvlIncrease": 1,
       "MaxExp": 2800000,
       "WarningExpIncrease": 1400000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "41": {
       "MaxLvlIncrease": 2,
       "WarningLvlIncrease": 1,
       "MaxExp": 2800000,
       "WarningExpIncrease": 1400000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "42": {
       "MaxLvlIncrease": 2,
       "WarningLvlIncrease": 1,
       "MaxExp": 2800000,
       "WarningExpIncrease": 1400000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "43": {
       "MaxLvlIncrease": 2,
       "WarningLvlIncrease": 1,
       "MaxExp": 2800000,
       "WarningExpIncrease": 1400000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "44": {
       "MaxLvlIncrease": 2,
       "WarningLvlIncrease": 1,
       "MaxExp": 2800000,
       "WarningExpIncrease": 1400000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "45": {
       "MaxLvlIncrease": 2,
       "WarningLvlIncrease": 1,
       "MaxExp": 2800000,
       "WarningExpIncrease": 1400000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "46": {
       "MaxLvlIncrease": 2,
       "WarningLvlIncrease": 1,
       "MaxExp": 2800000,
       "WarningExpIncrease": 1400000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     },
     "47": {
       "MaxLvlIncrease": 2,
       "WarningLvlIncrease": 1,
       "MaxExp": 2800000,
       "WarningExpIncrease": 1400000,
-      "WarningGoldIncrease": 10000000,
-      "MaxGoldIncrease": 30000000
+      "WarningGoldIncrease": 10000,
+      "MaxGoldIncrease": 30000
     }
   }
 }
